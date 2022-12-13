@@ -1,0 +1,13 @@
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+body {
+    padding-bottom: 1000px;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 30px;
+    background-color: rgb(242, 241, 241);
+    margin: 0px;
+}    
+/* Comment: This style beloe will bw inherited */

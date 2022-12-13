@@ -1,0 +1,52 @@
+.sidebar {
+    position: fixed;
+    width: 90px;
+    left: 0;
+    bottom: 0;
+    top: 70px;
+    background-color: white;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(210, 210, 210);
+    z-index: 200;
+}
+.sidebarr {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sidebarr:hover {
+    background-color: rgb(228, 228, 228);
+}
+.sidebarr:active {
+    opacity: 0.5;
+}
+.home {
+    width: 30px;
+    height: 30px;
+}
+.exp {
+    width: 30px;
+    height: 30px;
+}
+.subbs {
+    height: 30px;
+    width: 30px;
+}
+.mus {
+    width: 30px;
+    height: 30px;
+}
+.dwnld {
+    width: 20px;
+    height: 20px;
+}
+.sidebarr div {
+    font-size: 13px;
+}
+.sidebarr img {
+    margin-bottom: 4px;
+}
