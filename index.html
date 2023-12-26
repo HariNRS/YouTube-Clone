@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>utube</title>
-    <link rel="stylesheet" href="styles/video.css">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles/yt-video.css">
+    <link rel="stylesheet" href="styles/yt-general.css">
+    <link rel="stylesheet" href="styles/yt-header.css">
+    <link rel="stylesheet" href="styles/yt-sidebar.css">
+    <link rel="website icon" href="./My First Webpage/img/yttt.png">
     <style>
        
     </style>
 </head>
 <body>  
-    <div class="headeer">
+    <div class="headeer">                                           <!--Header with FLEX-->
         <div class="left-section">
-            <img class="menu" src="icon/menu.png" alt="">
-            <img class="yt-logo" src="icon/unnamed.jpg" alt="">
+            <button class="menu-button"> 
+                <img class="menu" src="icon/menu.png" alt="">
+            </button> 
+            <div class="yt-logo-inner">
+                <img class="yt-logo" src="icon/unnamed.jpg" alt="">
+                <div class="yt-logo-in">IN</div>
+            </div>
         </div>      
+
+                                                                    <!-- Put position absolute inside position realtive-->
         <div class="center-section">         
             <input class="box" type="text" placeholder="Search">
             <button class="butone"><img class="srch" src="icon/search.png" alt="">
-                <div class="tooltip"></div>
-                <!-- Put position absolute inside position realtive-->
+                <div class="tooltip"></div>                                                         
             </button>
             <button class="buttwo">
                 <img class="mic" src="icon/mic.png" alt="">
@@ -31,17 +38,24 @@
             </button>
         </div>
         <div class="right-section">
-            <div><img class="vadd" src="icon/vadd.png" alt=""></div>
-            <div><img class="grid-icon" src="icon/grid.png" alt=""></div>
+            <div>
+                <img class="vadd" src="icon/vadd.png" alt="">
+            </div>
+            <div>
+                <img class="grid-icon" src="icon/grid.png" alt="">
+            </div>
            
             <div class="noti-cont">
                 <img class="noti" src="icon/noti.png" alt="">
                 <div class="noti-count">3</div>
             </div>
-            <div><img class="loogo" src="My First Webpage/img/Logo.JPG" alt=""></div>
+            <div>
+                <img class="loogo" src="My First Webpage/img/Logo.JPG" alt="">
+            </div>
         </div>
     </div> 
-    <div class="sidebar">
+    
+    <div class="sidebar">                                           <!--Side-bar with FLEX-->
         <div class="sidebarr">
             <img class="home" src="icon/hme.png" alt="">
             <div>Home</div>
@@ -64,14 +78,14 @@
         </div>
     </div>
    
-<div class="video-gridd">
+<div class="video-gridd">                                           <!--GRID-->
     <div class="vid-one">
         <div class="thumb-nail">
             <img class="thumb-img" src="My First Webpage/img/1662740036572.jpg" alt="">    
             <div class="timerr">5:10</div>   
         </div>
        
-        <div class="horiz-lay">
+        <div class="horiz-lay">                                     <!--Nested-layout-->
             <div class="horiz-one">
                 <img class="logo" src="My First Webpage/img/Logo.JPG">
             </div>
@@ -84,7 +98,7 @@
                     hariftw
                 </p>
                 <p class="vid-stats">
-                    41 views &#183; 3 months ago    
+                    221k views &#183; 4 months ago    
                 </p>
             </div>      
         </div>       
@@ -92,44 +106,45 @@
 
     <div class="vid-one">
         <div class="thumb-nail">
-            <img class="thumb-img" src="My First Webpage/img/1662740068064.jpg" alt="">
-            <div class="timerr">3:33</div>
+            <img class="thumb-img" src="My First Webpage/img/yt-videos/video-1.png" alt="">
+            <div class="timerr">33:33</div>
         </div>
         <div class="horiz-lay">
             <div class="horiz-one">
-                <img class="logo" src="My First Webpage/img/Logo.JPG">   
+                <img class="logo" src="My First Webpage/img/20221022_154214.jpg">   
             </div>
             <div class="about">
                 <p class="video-title">
-                    Let's play with the next level outfit!!!
+                    My Portfolio😍
                 </p>
                 <p class="vid-author">
-                    hariftw
+                    bio-of-hari
                 </p>
                     <p class="vid-stats">
-                        55 views &#183; 2 months ago    
+                        950k views &#183; 1 months ago    
                     </p>
             </div>
         </div>        
     </div>
+
     <div class="vid-one">
         <div class="thumb-nail">
-            <img class="thumb-img" src="My First Webpage/img/1662740036572.jpg" alt="">       
-            <div class="timerr">6:10</div>
+            <img class="thumb-img" src="My First Webpage/img/yt-videos/video-2.png" alt="">       
+            <div class="timerr">10:40</div>
         </div>
         <div class="horiz-lay">
             <div class="horiz-one">
-                <img class="logo" src="My First Webpage/img/Logo.JPG">
+                <img class="logo" src="My First Webpage/img/20221024_151058.jpg">
             </div>
             <div class="about">
                 <p class="video-title">
-                    Come join with me guys....
+                    New logo desgin...
                 </p>
                 <p class="vid-author">
-                    hariftw
+                    creative king
                 </p>
                     <p class="vid-stats">
-                        41 views &#183; 3 months ago    
+                        410k views &#183; 3 years ago    
                     </p>
             </div>      
         </div>       
@@ -137,22 +152,22 @@
 
     <div class="vid-one">
         <div class="thumb-nail">
-            <img class="thumb-img" src="My First Webpage/img/1662740068064.jpg" alt="">
-            <div class="timerr">2:50</div>
+            <img class="thumb-img" src="My First Webpage/img/yt-videos/video-3.png" alt="">
+            <div class="timerr">12:50</div>
         </div>
         <div class="horiz-lay">
             <div class="horiz-one">
-                <img class="logo" src="My First Webpage/img/Logo.JPG">   
+                <img class="logo" src="My First Webpage/img/learn.png">   
             </div>
             <div class="about">
                 <p class="video-title">
-                    Let's play with the next level outfit!!!
+                    PoseNet in javascript
                 </p>
                 <p class="vid-author">
-                    hariftw
+                    learn with me
                 </p>
                     <p class="vid-stats">
-                        55 views &#183; 2 months ago    
+                        600k views &#183; 2 years ago    
                     </p>
             </div>
         </div>        
@@ -160,44 +175,91 @@
     
     <div class="vid-one">
         <div class="thumb-nail">
-            <img class="thumb-img" src="My First Webpage/img/1662740036572.jpg" alt="">   
-            <div class="timerr">3:20</div>    
+            <img class="thumb-img" src="My First Webpage/img/yt-videos/video-4.png" alt="">   
+            <div class="timerr">30:30</div>    
         </div>
         <div class="horiz-lay">
             <div class="horiz-one">
-                <img class="logo" src="My First Webpage/img/Logo.JPG">
+                <img class="logo" src="My First Webpage/img/IMG_20211210_084854.jpg">
             </div>
             <div class="about">
                 <p class="video-title">
-                    Come join with me guys....
+                    New vs code tricks!
                 </p>
                 <p class="vid-author">
-                    hariftw
+                    pc tricks
                 </p>
                     <p class="vid-stats">
-                        41 views &#183; 3 months ago    
+                        103k views &#183; 10 months ago    
                     </p>
             </div>      
         </div>       
     </div>
+
     <div class="vid-one">
         <div class="thumb-nail">
-            <img class="thumb-img" src="My First Webpage/img/1662740068064.jpg" alt="">
-            <div class="timerr">6:30</div>
+            <img class="thumb-img" src="My First Webpage/img/yt-videos/video-9.png" alt="">
+            <div class="timerr">16:30</div>
         </div>
         <div class="horiz-lay">
             <div class="horiz-one">
-                <img class="logo" src="My First Webpage/img/Logo.JPG">   
+                <img class="logo" src="My First Webpage/img/ChatGPT.jpg">   
             </div>
             <div class="about">
                 <p class="video-title">
-                    Let's play with the next level outfit!!!
+                    crazy things in ChatGPT
                 </p>
                 <p class="vid-author">
-                    hariftw
+                    chatGPT
                 </p>
                     <p class="vid-stats">
-                        55 views &#183; 2 months ago    
+                        550k views &#183; 2 days ago    
+                    </p>
+            </div>
+        </div>        
+    </div>
+
+    <div class="vid-one">
+        <div class="thumb-nail">
+            <img class="thumb-img" src="My First Webpage/img/yt-videos/video-8.png" alt="">   
+            <div class="timerr">32:25</div>    
+        </div>
+        <div class="horiz-lay">
+            <div class="horiz-one">
+                <img class="logo" src="My First Webpage/img/IMG_20220615_235613.jpg">
+            </div>
+            <div class="about">
+                <p class="video-title">
+                    Studing material in online
+                </p>
+                <p class="vid-author">
+                    come study with me
+                </p>
+                    <p class="vid-stats">
+                        41k views &#183; 6 days ago    
+                    </p>
+            </div>      
+        </div>       
+    </div>
+    
+    <div class="vid-one">
+        <div class="thumb-nail">
+            <img class="thumb-img" src="My First Webpage/img/yt-videos/video-10.png" alt="">
+            <div class="timerr">19:30</div>
+        </div>
+        <div class="horiz-lay">
+            <div class="horiz-one">
+                <img class="logo" src="My First Webpage/img/IMG_20210401_101111.jpg">   
+            </div>
+            <div class="about">
+                <p class="video-title">
+                    New offers in flipkart!!
+                </p>
+                <p class="vid-author">
+                    dashboard deals
+                </p>
+                    <p class="vid-stats">
+                        55k views &#183; 9 months ago    
                     </p>
             </div>
         </div>        
