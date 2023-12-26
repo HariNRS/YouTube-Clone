@@ -1,25 +1,23 @@
 .Sub-button {
     background-color: rgb(200, 3, 3);
     font-weight: bold;
-    border: none;
     font-size: 1em;
     color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px; 
+    padding: 10px;
     border-radius: 2px;
-    cursor: pointer;
+    border: none;
     margin-right: 10px;
     transition: opacity 0.15s;
-    
+    cursor: pointer;
 }
 .Sub-button:hover {
     opacity: 0.8;
 }
 .Sub-button:active {
-    
     opacity: 0.5;
+}
+.trans {
+    transform: translate(45px);
 }
 
 .join-button {
@@ -49,58 +47,69 @@
 }
 
 .Tweet-button {
-background-color: rgb(9, 156, 247);
-border: none;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-padding-right: 10px;
-border-radius: 50px;
-color: #fff;
-font-weight: bolder;
-cursor: pointer;
-transition: box-shadow 0.15s;
+    background-color: rgb(9, 156, 247);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
 }
 .Tweet-button:hover {
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 .Tweet-button:active {
-opacity: 0.5;
+    opacity: 0.5;
 }
 
 .mine-button {
-background-color: rgba(55, 236, 236, 0.678);
-border-color: rgb(204, 232, 229);
-border-radius: 5px;
-border-width: 1.1px;
-font-size: 1em;
-font-weight: bold;
+    background-color: rgba(55, 236, 236, 0.678);
+    border-color: rgb(204, 232, 229);
+    border-radius: 5px;
+    border-width: 1.1px;
+    font-size: 1em;
+    font-weight: bold;
 
-color: #fff;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-padding-top: 12px;
-padding-bottom: 12px;
-padding-left: 30px;
-padding-right: 30px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
 
-border-style: solid;
-transition: backgroundcolor 1s, box-shadow 0.15s;
-cursor: pointer;
-margin-right: 8px;
+    border-style: solid;
+    transition: backgroundcolor 1s, box-shadow 0.15s;
+    cursor: pointer;
+    margin-right: 8px;
 }
 .mine-button:hover {
-color: rgba(0, 0, 0);
-opacity: 0.8;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    color: rgba(0, 0, 0);
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }  
 .mine-button:active {
-opacity: 0.5;
-
-
+    opacity: 0.5;
 }
-
 .hh {
     color: #fff;
     background-color: black;
     border-radius: 5px;
+    
+}
+.hh:hover{
+    border-color: rgb(91, 241, 196) green;
+    border-style: solid;
+    
+}
+.grid {
+    display: grid;
+    display: inline-block;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 10px;
+    background-color:beige;
 }
