@@ -1,12 +1,11 @@
 .headeer {
-    height: 70px;
     display: flex;
     justify-content: space-between;
     position: fixed;
+    height: 70px;
     top: 0;
     left: 0;
     right: 0;
-    height: 70px;
     border: 1px solid rgb(210, 210, 210);
     background-color: white;
     z-index: 100;
@@ -16,14 +15,45 @@
     align-items: center;    
 }
 .menu {
-  height: 30px;
-  margin: 0px 20px 0px 25px ;
+  height: 23px;
+  margin: 0;
   cursor: pointer;
 }
+.menu-button {
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    margin-left: 20px;
+    border: 0px solid rgb(162, 163, 163);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer; 
+    transition: background-color;
+}
+.menu-button:hover {
+    opacity: 0.8;
+    background-color:rgb(233, 233, 233);
+    
+}
+.butone:active {
+    opacity: 0.5;
+}
+.yt-logo-inner {
+    position: relative;
+}
 .yt-logo {
-    height: 70px;
+    height: 60px;
     cursor: pointer;
 }
+.yt-logo-in {
+    position: absolute;
+    background-color: white;
+    color: rgb(69, 69, 69);
+    font-size: 12px;
+    padding: 1.3px 4px 1.3px 4px;
+    top: 8px;
+    right: -8px;
+}
+
 .center-section {
     display: flex;
     align-items: center;
@@ -31,6 +61,7 @@
     max-width: 600px;
     margin: 0px 1px 0px 40px;
 }
+
 .box {
     height: 40px;
     flex: 1;
@@ -39,11 +70,13 @@
     margin-right: -60px;
     width: 0;
 }
+
 .srch {
     height: 20px;
     width: 20px;
     margin-left: -0px;   
 }
+
 .butone {
     height: 42px;
     width: 59px;
@@ -55,14 +88,20 @@
     position: relative;
     margin-right: 20px;
     transition: background-color;  
+    
 }
+
 .butone:hover {
     opacity: 0.8;
     background-color:rgb(217, 217, 217);
+    
 }
+
 .butone:active {
     opacity: 0.5;
+    
 }
+
 .buttwo {
     height: 50px;
     width: 50px;
@@ -78,41 +117,57 @@
     opacity: 0.8;
     background-color: rgb(217, 217, 217);
 }
+
 .buttwo:active {
     opacity: 0.5;
 }
+
 .mic {
-    height: 23px;
-    width: 23px;
+    height: 20px;
+    width: 20px;
     cursor: pointer; 
 }
+
 .right-section {
-    width: 250px;
+    width: 200px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-shrink: 0;
 }
-.vadd {
-    width: 25px;
-    height: 15px;
-    cursor: pointer;
 
+.right-section div {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
 }
+
+.vadd {
+    width: 20px;
+    height: 13px;
+    cursor: pointer;
+}
+
 .grid-icon {
-    width: 23px;
-    height: 23px;
+    width: 17px;
+    height: 17px;
     cursor: pointer;
 }
+
 .noti {
-    width: 23px;
-    height: 23px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
 }
+
 .noti-cont {
     position: relative;
 
 }
+
 .noti-count {
     position: absolute;
     background-color: red;
@@ -121,19 +176,18 @@
     font-weight: bold;
     cursor: pointer;
     border-radius: 15px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 7px;
-    padding-left: 7px;
-    top: -3px;
-    right: -7px;
+    padding: 1.3px 4px 1.3px 4px;
+    top: -1px;
+    right: -3px;
 }
+
 .loogo {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     border-radius: 17px;
 }
+
 .buttwo .tooltipp {
     position: absolute;
     background-color: aqua;
@@ -145,6 +199,7 @@
     opacity: 0;
 
 }
+
 .buttwo .tooltipp:hover {
     opacity: 1;
 }
