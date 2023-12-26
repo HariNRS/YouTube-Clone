@@ -5,17 +5,26 @@
     row-gap: 40px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .video-gridd {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width: 1000px) and (max-width: 1199px) {
+@media (max-width: 650px) {
+    .video-gridd {
+        grid-template-columns: 1fr;
+    }
+}
+
+/**/
+
+@media (min-width: 900px) and (max-width: 1199px) {
     .video-gridd {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
 @media (min-width:1100px) {
     .video-gridd {
         grid-template-columns: 1fr 1fr 1fr 1fr;

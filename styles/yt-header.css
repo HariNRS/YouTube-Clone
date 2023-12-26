@@ -54,6 +54,14 @@
     right: -8px;
 }
 
+/**/
+
+@media (max-width: 550px) {
+    .box {
+        display: none;
+    }
+}
+
 .center-section {
     display: flex;
     align-items: center;
