@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     right: 0;
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid rgb(255, 255, 255);
     background-color: white;
     z-index: 100;
 }
@@ -15,7 +15,7 @@
     align-items: center;    
 }
 .menu {
-  height: 23px;
+  height: 35px;
   margin: 0;
   cursor: pointer;
 }
@@ -23,7 +23,7 @@
     height: 45px;
     width: 45px;
     border-radius: 22.5px;
-    margin-left: 20px;
+    margin: 0 5px 0 20px;
     border: 0px solid rgb(162, 163, 163);
     background-color: rgb(255, 255, 255);
     cursor: pointer; 
@@ -56,7 +56,7 @@
 
 /**/
 
-@media (max-width: 550px) {
+@media (max-width: 545px) {
     .box {
         display: none;
     }
@@ -67,7 +67,7 @@
     align-items: center;
     flex: 1;
     max-width: 600px;
-    margin: 0px 1px 0px 40px;
+    margin: 0px 1px 0px 10px;
 }
 
 .box {
@@ -77,6 +77,11 @@
     border-radius: 20px;
     margin-right: -60px;
     width: 0;
+}
+
+.box::placeholder {
+    text-indent: 10px; /* Adjust as needed */
+    font-size: 16px; /* Adjust as needed */
 }
 
 .srch {
@@ -141,7 +146,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-shrink: 0;
 }
 
 .right-section div {

@@ -7,7 +7,7 @@
     background-color: white;
     border-right-width: 1px;
     border-right-style: solid;
-    border-right-color: rgb(210, 210, 210);
+    border-right-color: rgb(255, 255, 255);
     z-index: 200;
    
     animation-duration: 9s;
@@ -26,7 +26,7 @@
     100% {background-color: rgb(122, 247, 54);}
 }
 
-.sidebarr {
+.sidebar-menus {
     height: 70px;
     display: flex;
     border-radius: 20px;
@@ -35,19 +35,20 @@
     flex-direction: column;
     cursor: pointer;
 }
-.sidebarr:hover {
+.sidebar-menus:hover {
     background-color: rgb(228, 228, 228);
 }
-.sidebarr:active {
+.sidebar-menus:active {
     opacity: 0.5;
 }
 .home {
     width: 20px;
     height: 20px;
 }
-.exp {
-    width: 23px;
-    height: 23px;
+.shorts {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
 }
 .subbs {
     height: 23px;
@@ -61,9 +62,9 @@
     width: 15px;
     height: 15px;
 }
-.sidebarr div {
+.sidebar-menus div {
     font-size: 10px;
 }
-.sidebarr img {
-    margin-bottom: 4px;
+.sidebar-menus img {
+    margin-bottom: 10px;
 }
