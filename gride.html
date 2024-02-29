@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+   <style>
+
+    .first {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 30px;
+        grid-template-rows: 1fr 1fr;
+        height: 50px;
+    }
+    .second {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 500px;
+        column-gap: 15px;
+        row-gap: 30px;
+    }
+    .third {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 30px;
+    }
+
+   </style>
+  
+</head>
+<body style="padding-bottom: 1000px;">
+   <div class="first">
+    <div style="background-color: aqua;">color</div>
+    <div style="background-color: rgb(157, 230, 54);">combo</div>
+    <div style="background-color: aqua;">color</div>
+    <div style="background-color: rgb(157, 230, 54);">combo</div>
+   </div>
+   <div class="third">
+    <div style="background-color: chartreuse;">color</div>
+    <div style="background-color: gold;">combo</div>
+    <div style="background-color: rgb(255, 0, 204);">ooo</div>
+    <div style="background-color: brown;">hhh</div>
+   </div>
+   <div>
+   <div class="second">
+    <div style="background-color: rgba(239, 11, 11, 0.418);">color</div>
+    <div style="background-color: rgba(108, 8, 248, 0.496);">combo</div>
+    <div style="background-color: rgb(241, 249, 6);">color</div>
+    <div style="background-color: rgb(0, 190, 248);">combo</div>
+     <div style="background-color: rgba(239, 11, 11, 0.418);">color</div>
+     <div style="background-color: rgba(108, 8, 248, 0.496);">combo</div>
+     <div style="background-color: rgb(241, 249, 6);">color</div>
+     <div style="background-color: rgb(0, 190, 248);">combo</div>
+    </div> 
+</div>
+</body>
+</html>
